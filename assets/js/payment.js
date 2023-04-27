@@ -13,6 +13,9 @@ switch (trainingKey) {
       break;
       case 'cm':
         paymentUrl = "https://e-billing.digitech-africa.com/3KJVSSx";
+      break
+    case 'devweb':
+        paymentUrl = "https://e-billing.digitech-africa.com/3AwJKOK"
 }
 
 document.getElementById("payment-button").href =  paymentUrl;
